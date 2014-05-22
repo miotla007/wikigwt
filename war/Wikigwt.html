@@ -1,0 +1,75 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link type="text/css" rel="stylesheet" href="Wikigwt.css">
+                 
+    <title>Web Application Starter Project</title>
+                     
+    <script type="text/javascript" language="javascript" src="wikigwt/wikigwt.nocache.js"></script>
+  </head>
+
+  <body style="padding: 0px; margin: 0px;">    
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+
+  <div id="header">
+   	<div class="wrapper">
+   		<div id="coll-left">
+   			<h1> Wiki</h1>
+   		</div>
+  
+   		<div id="coll-right">
+			<div id="loginPanel">
+				<div id="loginTbHolder">
+					<p>Login</p>
+				</div>
+				<div id="passwdTbHolder">
+					<p>Hasło</p>
+				</div>
+				<div id="signinBtnHolder"></div>
+				<div id="siginErr" class="hidden">
+					<p>Login lub hasło są nieprawidłowe</p>
+				</div>
+			</div>
+
+			<div id="loggedinPanel" class="hidden">
+				<h3>Panel administratora</h3>
+				<div id="userNameLblHolder">Jesteś/aś zalogowany jako: </div>
+				<div id="logoutBtnHolder"></div>
+			</div>
+
+		</div>
+   	</div>
+   </div>
+   <div class="wrapper" id="articles">
+		   
+   </div>
+   <div id="crudHolder" class="hidden">
+			<div id="actionsHolder">
+				<h2>Zarządzaj artukułami</h2>
+				<div id="listBoxHolder"></div>
+				<div id="editEntryBtnHolder"></div>
+				<div id="rmEntryBtnHolder"></div>
+			</div>
+			<div id="textInputHolder"> 
+				<h2 id="addEntryLbl">Dodaj artukuł</h2>
+				<h2 id="editEntryLbl" class="hidden">Edytuj artukuł</h2>
+				<h3>Tytuł</h3>
+				<div id="titleTbHolder"></div>
+				<h3>Opis</h3>
+				<div id="dscrTaHolder"></div>
+				<div id="textInputBtns">
+					<div id="cancelBtnHolder"></div>
+					<div id="addBtnHolder"></div>
+					<div id="editBtnHolder"></div>
+				</div>
+			</div>
+		</div>
+  </body>
+</html>

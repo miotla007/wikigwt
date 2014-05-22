@@ -1,0 +1,2 @@
+serviceClass: com.example.wikigwt.client.LoginService
+path: AA8BA009A407000BFC7B6BE5406DB4AC.gwt.rpc

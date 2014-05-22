@@ -1,0 +1,2 @@
+serviceClass: com.example.wikigwt.client.ArticleService
+path: DF0243A53E6BC6D08F69420438366C67.gwt.rpc
