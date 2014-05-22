@@ -16,13 +16,11 @@ public class ArticleServiceImpl extends RemoteServiceServlet implements ArticleS
 		ArticleDB.add(new Article(1L, "Siemanko1", "Pierwsza wrzutka do wiki"));
 		ArticleDB.add(new Article(2L, "Siemanko2", "Druga wrzutka do wiki"));
 		ArticleDB.add(new Article(3L, "Siemanko3", "Trzecia wrzutka do wiki"));
-		
 	}
 	
 	@Override
 	public void addArticle(Article articleToAdd) {
 		ArticleDB.add(articleToAdd);
-		
 	}
 
 	@Override
@@ -33,7 +31,7 @@ public class ArticleServiceImpl extends RemoteServiceServlet implements ArticleS
 			if( ( a.getId().toString().compareTo( id.toString() ) ) == 0 ){
 				//Integer i = EntryDBstub.indexOf(e);
 				ArticleDB.remove(a);
-				System.out.println("Remove " + a.getId());// i);
+				System.out.println("Remove " + a.getId());
 			}
 		}
 		
